@@ -237,6 +237,10 @@ body {
 	.navbar-nav {
 		@extend .w-100;
 	}
+	
+	.dropdown-menu {
+		background: #444;
+	}
 }
 
 .panel-top {
