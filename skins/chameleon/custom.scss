@@ -418,7 +418,12 @@ body {
 		background-color: #ddd3;
 		box-shadow: none;
 		@extend .p-0;
-		
+					
+		&> div > a:first-child:last-child:hover {
+			color: #fff !important;
+			background-color: rgba(255, 255, 255, .05) !important;
+			background-image: none;
+		}
 	}
 
 	.nav-link {
