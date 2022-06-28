@@ -6,6 +6,7 @@ $wgLogos = [
 $wgFavicon = 'w/extensions/wikivisor/skins/chameleon/favicon/favicon.ico';
 
 // Customization
+wfLoadExtension( 'Bootstrap' );
 $wgDefaultSkin='chameleon';
 $egChameleonLayoutFile= $IP . '/extensions/wikivisor/skins/chameleon/layouts/custom.xml';
 $egChameleonExternalStyleModules = [
