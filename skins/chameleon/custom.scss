@@ -419,7 +419,8 @@ body {
 		box-shadow: none;
 		@extend .p-0;
 					
-		&> div > a:first-child:last-child:hover {
+		&> div > a:first-child:last-child:hover,
+		&> div > a:first-child:last-child:focus {
 			color: #fff !important;
 			background-color: rgba(255, 255, 255, .05) !important;
 			background-image: none;
@@ -429,7 +430,7 @@ body {
 	.nav-link {
 		color: #efefef !important;
 
-		&:hover {
+		&:hover, &:focus {
 			color: #fff !important;
 			background-color: rgba(255, 255, 255, .05) !important;
 			background-image: none;
